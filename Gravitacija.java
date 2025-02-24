@@ -7,6 +7,10 @@ public class Gravitacija {
 		return C * M / Math.pow(MASA_ZEMLJE * visina, 2);
 	}
 
+	public static void izpis(double visina, double gravitacija) {
+		System.out.printf("[%f m] -> [%f m/s^2]\n", visina, gravitacija);
+	}
+
 	public static void main(String[] args) {
 		System.out.println("OIS je zakon!");
 	}
